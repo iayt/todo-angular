@@ -13,7 +13,9 @@ aTodo.controller("todocontrol",function($scope){
 
     $scope.addNewTodo = function(newData){
 
-        $scope.data.push({"id": 10,"body": newData});   // datayı json olarak push ettik
+        $scope.data.push(
+            {"id": 10,"body": newData}
+        );                                              // datayı json olarak push ettik
         $scope.text = '';                               // inputu boşaltır.
 
     }

@@ -5,11 +5,12 @@ include _layouts/_header
 .container.appArea(ng-controller='todocontrol')
 
     .header.clearfix
-        h1.text-muted.col-md-7 TodoAngular
+        h1.text-muted.col-md-8 TodoAngular
     
-        .searchArea.col-md-5
-            span Ara:
-            input(type='text', ng-model='searchInput')
+        .searchArea.col-md-4
+            .input-group.col-md-11
+                span.input-group-addon Ara
+                input(type="text", class="form-control", ng-model='searchInput')
 
     .listArea
         ul.list-group
@@ -18,7 +19,14 @@ include _layouts/_header
                 span {{value.body}}
 
         .addTodo 
-            input(type='text', ng-model='text')
-            button.btn.btn-info(ng-click='addNewTodo(text)') Ekle
+            form
+                .col-md-10
+                    input.form-control(type="text", ng-model='text')
+                .col-md-2.bttnArea
+                    button.btn.btn-info(ng-click='addNewTodo(text)')
+                        span.glyphicon.glyphicon-plus
+                        span  EKLE
+
+
 
 include _layouts/_footer
