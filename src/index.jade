@@ -1,0 +1,16 @@
+include _layouts/_header
+
+
+
+.container(ng-controller='todocontrol')
+    
+    .searchArea
+        span Ara:
+        input(type='text', ng-model='searchInput')
+    ul
+        li(ng-repeat="value in data | filter:searchInput") 
+            input(type='checkbox', ng-model='selected')
+            {{value.body}} deneme
+
+
+include _layouts/_footer
