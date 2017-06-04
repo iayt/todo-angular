@@ -1,4 +1,5 @@
-# Todoangular readme
+# TodoAngular
+a "TODO" project developed with angular Edit
 
 Generated on 2017-06-04 using
 [generator-yeogurt@2.0.0](https://github.com/larsonjj/generator-yeogurt)
