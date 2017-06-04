@@ -1,17 +1,13 @@
 # TodoAngular
-a "TODO" project developed with angular Edit
+a "TODO" project developed with angular
 
-Generated on 2017-06-04 using
+Generated using
 [generator-yeogurt@2.0.0](https://github.com/larsonjj/generator-yeogurt)
-
-## Description
-
-This is an example readme file.
-Describe your site/app here.
 
 ## Technologies used
 
 JavaScript
+- [Angular](https://angularjs.org/)
 - [Browserify](http://browserify.org/) with ES6/2015 support through [Babel](https://babeljs.io/)
 - [Node](https://nodejs.org/)
 
@@ -57,4 +53,3 @@ The tasks are as follows:
 `gulp test`: Lints all `*.js` file in the `source` folder using eslint and runs all `*.test.js` file unit tests through [Karma](http://karma-runner.github.io/0.13/index.html) and Jasmine
 `gulp test --watch`: Same as `gulp test` but will constantly watch `*.test.js` files and rerun tests when changes are detected
 
-***Adding the `--debug` option to any gulp task displays extra debugging information (ex. data being loaded into your templates)***
