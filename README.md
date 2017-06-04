@@ -1,8 +1,7 @@
 # TodoAngular
 a "TODO" project developed with angular
 
-Generated using
-[generator-yeogurt@2.0.0](https://github.com/larsonjj/generator-yeogurt)
+
 
 ## Technologies used
 
