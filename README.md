@@ -10,15 +10,16 @@ JavaScript
 - [Browserify](http://browserify.org/) with ES6/2015 support through [Babel](https://babeljs.io/)
 - [Node](https://nodejs.org/)
 
-Testing
-- [Karma](http://karma-runner.github.io/0.13/index.html)
-- [Jasmine](http://jasmine.github.io/)
-
 Styles
 - [Sass](http://sass-lang.com/) via ([node-sass](https://github.com/sass/node-sass))
+- [Bootstrap](http://getbootstrap.com)
 
 Markup
 - [Jade](http://jade-lang.com/)
+
+Testing
+- [Karma](http://karma-runner.github.io/0.13/index.html)
+- [Jasmine](http://jasmine.github.io/)
 
 Optimization
 - [Imagemin](https://github.com/imagemin/imagemin)
