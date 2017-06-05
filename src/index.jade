@@ -14,7 +14,7 @@ include _layouts/_header
 
     .listArea
         ul.list-group
-            li.list-group-item(ng-repeat="value in data | filter:searchInput | limitTo:10 | orderBy:'-id' ", ng-model="value.status")
+            li.list-group-item(ng-repeat="value in data | filter:searchInput | limitTo:20 | orderBy:'id' ", ng-model="value.status")
                 input(type="checkbox", ng-model="selected")
                 span {{value.title}} {{value.status}}
 
